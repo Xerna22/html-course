@@ -18,7 +18,21 @@
     <img src="logo.png">
   </header>
   <main>
-    
+    <form action="" >
+      <div>
+        <label for="email">Email Address <input type="email" name="email" id="email"></label>
+      </div>
+      <div>
+        <label for="date_booking">Date of Booking <input type="date" name="date_booking" id="date_booking"></label>
+      </div>
+      <div>
+        <label for="num_pepople">Number of people <input type="number" name="num_pepople" id="num_pepople" min="1" max="8"></label>
+      </div>
+      <div>
+        <label for="policy"><input type="checkbox" name="policy" id="policy"> I agree to the cancellation policy </label>
+      </div>
+      <input type="submit" value="Book Now" name="submit">
+    </form>
   </main>
 </body>
 
