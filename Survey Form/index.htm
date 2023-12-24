@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Survey to learn more about our users</p>
+    <form action="" id="survey-form">
+      <label for="name" id="name-label"
+        >Name:
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name here"
+          required
+      /></label>
+      <label for="email" id="email-label"
+        >Email:
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email here"
+          required
+      /></label>
+      <label for="number" id="number-label"
+        >Number:
+        <input
+          type="number"
+          id="number"
+          min="10"
+          max="120"
+          placeholder="Enter your age"
+          required
+      /></label>
+      <label for="dropdown">Select your sex:
+        <select name="" id="dropdown">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+      <fieldset>
+        <legend>What device are you using</legend>
+        <label for="computer"
+          >Computer<input
+            type="radio"
+            name="device"
+            id="computer"
+            value="computer"
+        /></label>
+        <label for="smartphone"
+          >Smartphone<input
+            type="radio"
+            name="device"
+            id="smartphone"
+            value="smartphone"
+        /></label>
+        <label for="tablet"
+          >Tablet<input type="radio" name="device" id="tablet" value="tablet"
+        /></label>
+        <label for="other"
+          >Other<input type="radio" name="device" id="other" value="other"
+        /></label>
+      </fieldset>
+      <fieldset>
+        <legend>With whom do you live with</legend>
+        <label for="mom">
+          Mom
+          <input type="checkbox" id="mom" value="true" />
+        </label>
+        <label for="dad">
+          Dad
+          <input type="checkbox" id="dad" value="true" />
+        </label>
+        <label for="bros">
+          Brother(s)/Sister(s)
+          <input type="checkbox" id="bros" value="true" />
+        </label>
+        <label for="friend">
+          Friend
+          <input type="checkbox" id="friend" value="true" />
+        </label>
+      </fieldset>
+      <label for="comments"
+        >Add comments (optional)
+        <textarea id="comments" cols="30" rows="10"></textarea>
+      </label>
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: rgb(9,1,23);
+    background: linear-gradient(49deg, rgba(9,1,23,1) 39%, rgba(218,3,40,1) 100%);
+}
+
+h1, p{
+    text-align: left;
+    margin-left: 5%;
+    color: white;
+    font-family: Poppins;
+}
+
+#survey-form{
+    background-color: #191029;
+    margin: 0 5% 5% 5%;
+    padding: 3%;
+    color: white;
+    font-family: Poppins;
+    border-radius: 2%;
+
+}
+
+input, select, textarea{
+    width: 100%;
+    margin-bottom: 1%;
+    padding: 5px;
+}
+
+input[type="radio"],input[type="checkbox"]{
+    width: 10%;
+    margin-bottom: 0;
+}
+
+fieldset{
+    margin-bottom: 2%;
+
+}
+
+input, select {
+    border-radius: 15px;
+    border-style: none;
+}
+
+input[type="submit"]{
+    background-color:#da0328;
+    font-size: large;
+    font-weight: 600;
+    color: #191029;
+}
