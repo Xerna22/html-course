@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+body{
+    background-color: #DCF2FF;
+    font-family: Mooli;
+    margin-top: 1rem;
+}
+
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10rem;
+    margin-bottom: 1rem;
+}
+
+nav{
+    background-color: #B53434;
+    padding: 0.5rem;
+    color: #DCF2FF;
+    font-weight: bold;
+    border-radius: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav  ul{
+    list-style: none;
+    text-align: center;
+    
+}
+
+nav li{
+    margin-left: 2rem;
+    display: inline-block;
+}
+
+nav a{
+ text-decoration: none;
+ color: #DCF2FF;
+}
+
+nav a:visited{
+    color: #DCF2FF;
+}
+
+nav a:hover{
+    color: #88AEE1;
+
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+}
+
+article > img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 3rem;
+}
+
+footer{
+    display: flex;
+    background-color: #627899;
+    padding: 1rem;
+    color: white;
+}
+
+footer div{
+    flex: 1;
+}
+
+.footer_logo{
+    height: 5rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.article-text{
+    background-color: #88AEE1;
+    margin: 1rem 0.2rem 1rem 0.2rem;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    border-radius: 2rem;
+}
+
+
+/*------------------------------------------------------------------
+                            Styles product page
+--------------------------------------------------------------------*/
+
+.products{
+    display: flex;
+}
+
+.product-card img{
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-card img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: rotate(10deg)
+}
+.product-card{
+    width: 20rem;
+    background-color: #88AEE1;
+    border-radius: 10px;    
+    margin: 2rem;
+}
+
+h3{
+    text-align: center;
+}
+
+.product-card button{
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #B53434;
+    color: #DCF2FF;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.product-card button:hover{
+    background-color: #f34848;
+}
+
+
+/*------------------------------------------------------------------
+                            Styles info page
+--------------------------------------------------------------------*/
+
+.info-section{
+    background-color: #88AEE1;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 2em;
+    color: #2d5186;
+}
+
+.info-section > h3:hover{
+    transform: scale(1.3);
+}
+
+.info-section:hover{
+    transform: scale(1.1);
+}
